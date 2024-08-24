@@ -8,9 +8,9 @@ app = Flask(__name__)
 # def hello_world():
 #     return "<p>This is Jack Li!</p>"
 
-# @app.route("/test")
-# def test():
-#     return render_template('test.html')
+@app.route("/test")
+def test():
+    return "test message"
 
 @app.route('/')
 def hello_world():
